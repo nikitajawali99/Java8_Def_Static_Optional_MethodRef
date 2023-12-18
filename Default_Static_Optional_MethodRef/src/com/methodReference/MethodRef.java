@@ -21,10 +21,10 @@ public class MethodRef implements Interf {
 
 	public static void main(String[] args) {
 
-		Interf i1 = MethodRef::m2;
+		Interf i1 = MethodRef::m2; //static method call
 		i1.m1();
-		Interf i2 = MethodRef::new;
-		i2.m1();
+		Interf i2 = MethodRef::new; //constructor
+		i2.m1(); //non-static interface call
 
 		List<String> personList = new ArrayList<>();
 		personList.add("vicky");

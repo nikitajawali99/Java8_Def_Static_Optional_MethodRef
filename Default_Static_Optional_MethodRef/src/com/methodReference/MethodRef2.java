@@ -23,7 +23,7 @@ public class MethodRef2 {
 		MethodRef2 m = new MethodRef2();
 		m.m2(20, 10);
 		Print p = m::saySomething;
-		p.say();
+		p.say(); // objRef call
 
 	}
 
