@@ -1,0 +1,30 @@
+Optional ->
+
+1)It is used when we don't want to deal with NullPointerException.
+2)It is introduced in java 1.8
+3)It can wrap any object
+4)When a value is present, the Optional class wraps & if it is not absent then it will
+  return the empty Optional called Optional.empty();
+5)Terms :
+
+1)ofNullable :- Allowed passed parameter to null will not throw NullPointerException if value is null
+2)of - Always excepting a value other than NULL if NULL present then it will throw NullPointerException.
+
+6)Ways to create optional object
+1)Optional.empty()
+2)Optional.of()
+3)Optional.ofNullable()
+
+## Methods:-
+
+1)empty - Returns an empty optional instance
+2)filter - If the value is present & matches the given predicate, return this Optional, otherwise returns
+           the empty one
+3)isPresent - Returns true if a value is present or else false
+4)ifPresent - If a value is present, invokes the specified consumer with the value otherwise false
+5)get - Returns the value wrapped by the Optional if present, otherwise throws NoSuchElementException
+6)map - If a value is present, applies the provided mapping functions to it or else return Optional.class
+7)orElse - Returns the values if present otherwise returns the default value.
+8)orElseGet - Returns the value otherwise return the one provided by the supplier.
+9)orElseThrow - Return the value if present, otherwise throw an exception created by the given supplier.
+
