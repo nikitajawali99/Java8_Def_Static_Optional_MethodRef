@@ -1,0 +1,13 @@
+1)It is used to write in a lambda code is already
+present inside another method, then we can point to the
+existing method using method reference.
+2)It is used for code reusability
+3)Uses existing logic/functionality
+4)Must be same argument
+5)Alternate to lambda expression
+6)Four types of method reference :
+
+  1)Static method reference (class :: static method)
+  2)Constructor reference (class :: new)
+  3)Reference to instance method from other class (class :: instanceMethod)
+  4)Reference to instance method from instance (objRef :: instanceMethod)

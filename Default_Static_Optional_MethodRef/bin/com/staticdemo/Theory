@@ -1,0 +1,7 @@
+1)Static methods in interface was introduced in java 1.8
+2)It is used for common business logic.
+3)Static methods can't be overriden.
+4)To call static methods we need to use interface name if the methods are in
+ interface  or class-name if methods are in class.
+5)If we try to do overriding then they both will consider separate methods.
+6)Utility methods

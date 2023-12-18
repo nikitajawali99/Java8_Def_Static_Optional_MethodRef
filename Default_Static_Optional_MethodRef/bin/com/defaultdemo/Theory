@@ -1,0 +1,7 @@
+1)Default methods are used to enable new functionality in the interfaces.
+2)It is from java 1.8.
+3)It is also called defender/virtual extension method.
+4)It is used for common code that is not mandatory to override the method.
+5)Child class can be overridden parent class default methods
+6)If we do upcasting parent-child class then child method will be called
+7)Concrete methods are default methods.
